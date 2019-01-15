@@ -8,7 +8,11 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "readline-sync": "^1.4.9",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
