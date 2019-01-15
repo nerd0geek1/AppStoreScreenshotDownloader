@@ -1,5 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
+const webpack = require("webpack");
 
 module.exports = {
   mode: 'development',
@@ -27,4 +28,10 @@ module.exports = {
   externals: [
     nodeExternals()
   ],
+
+  plugins: [
+    new webpack.EnvironmentPlugin({
+      HOME: process.env.HOME
+    })
+  ]
 };
