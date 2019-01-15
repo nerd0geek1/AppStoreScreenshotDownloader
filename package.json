@@ -4,5 +4,15 @@
   "description": "script to download iOS(iPhone/iPad) app screenshots by appleID",
   "main": "dist/bundle.js",
   "author": "Kohei Tabata",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/readline-sync": "^1.4.3",
+    "@types/request": "^2.48.1"
+  }
 }
