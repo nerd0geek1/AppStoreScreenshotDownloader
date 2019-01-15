@@ -6,6 +6,7 @@
   "author": "Kohei Tabata",
   "license": "MIT",
   "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
     "fs": "^0.0.1-security",
     "readline-sync": "^1.4.9",
     "request": "^2.88.0",
