@@ -1,0 +1,8 @@
+{
+  "name": "app-store-screenshot-downloader",
+  "version": "1.0.0",
+  "description": "script to download iOS(iPhone/iPad) app screenshots by appleID",
+  "main": "dist/bundle.js",
+  "author": "Kohei Tabata",
+  "license": "MIT"
+}
